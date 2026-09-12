@@ -11,8 +11,8 @@ def pregunta_02():
 
 
     """
-
-    return
+    cadena = "Hello cruel world!"
+    return cadena
 
 
 if __name__ == "__main__":
