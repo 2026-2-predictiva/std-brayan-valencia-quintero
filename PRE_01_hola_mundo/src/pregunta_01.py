@@ -10,7 +10,8 @@ def pregunta_01():
     Retorne el string "Hola mundo cruel!".
 
     """
-    cadena = "Hola mundo cruel!"
+    cadena = "Hola mundo cruel!" \
+    ""
     return cadena
 
 
