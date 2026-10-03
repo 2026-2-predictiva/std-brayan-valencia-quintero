@@ -25,9 +25,9 @@ def index():
         user_values["floors"] = float(request.form["floors"])
 
         if request.form.get("waterfront") == "Yes":
-            user_values["waterfront"] = 0
-        else:
             user_values["waterfront"] = 1
+        else:
+            user_values["waterfront"] = 0
 
         #
         # Valore entre 1 y 5
